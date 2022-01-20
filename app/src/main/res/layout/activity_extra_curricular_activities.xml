@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="17dp"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Community Service"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:textSize="12sp"
+                    android:layout_below="@+id/text2"
+                    android:textColor="#555555"
+                    android:id="@+id/point3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organized “Born To Dance - a dance reality show” under the aegis of Division of Student Welfare at Lovely Professional University held from March 2019 to April 2019, as an event manager of ‘Department of Youth Capital - DYC’."
+                    android:layout_toRightOf="@+id/point2"
+                    android:layout_below="@id/text2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"
+                    android:id="@+id/text3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:textSize="12sp"
+                    android:layout_below="@+id/text3"
+                    android:textColor="#555555"
+                    android:id="@+id/point4"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organized “Kitchen King - a cooking reality show” under the aegis of Division of Student Welfare at Lovely Professional University held from March 2019 to April 2019, as an event manager of ‘Department of Youth Capital - DYC’."
+                    android:layout_toRightOf="@+id/point3"
+                    android:layout_below="@id/text3"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:id="@+id/text4"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/point2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_below="@id/text1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organized “LPU's Literary Fest 2019” event under the aegis of Division of Student Welfare Lovely Professional University held on February 2019, as an Event Manager of ‘Department of Youth Capital - DYC’."
+                    android:layout_toRightOf="@+id/point2"
+                    android:id="@+id/text2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_below="@id/text1"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/point1"
+                    android:textSize="12sp"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organized “LinkedIn Campus Writer 2K18” event under the aegis of Division of Student Welfare Lovely Professional University held on March 2018, as an Event Manager of Student Organization ‘Horizon’."
+                    android:layout_toRightOf="@+id/point1"
+                    android:id="@+id/text0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/point0"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/text0"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organized “Self Branding” event under the aegis of Division of Student Welfare at Lovely Professional University held on May 2018, as an Event Manager of Student Organization ‘Horizon’."
+                    android:layout_toRightOf="@+id/point1"
+                    android:id="@+id/text1"
+                    android:layout_below="@+id/text0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"/>
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achievements"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:background="#25202222"
+                android:textStyle="bold"/>
+        <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/achievepoint0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cleared the International Humanity Olympiad certificate with 80.67% marks on August 2018."
+                    android:layout_toRightOf="@+id/achievepoint0"
+                    android:id="@+id/achievetext0"
+                    android:textSize="12sp"
+                    android:textColor="#555555" android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/achievepoint1"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/achievetext0"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cleared EF SET certificate with 54/100 and B2 Upper Intermediate according to CEFR February 2018."
+                    android:layout_toRightOf="@+id/achievepoint0"
+                    android:id="@+id/achievetext1"
+                    android:layout_below="@+id/achievetext0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/achievepoint2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_below="@id/achievetext1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Awarded 2nd Prize in Idea Generation Workshop cum Competition organized by School of Computer Applications ( E-Cell ) under the aegis of Lovely Professional University held on March 2018."
+                    android:layout_toRightOf="@+id/achievepoint2"
+                    android:id="@+id/achievetext2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_below="@id/achievetext1"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:textSize="12sp"
+                    android:layout_below="@+id/achievetext2"
+                    android:textColor="#555555"
+                    android:id="@+id/achievepoint3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="runner up in “CYCLOTHON 2018” organized by Student Organization ‘Society For Management Learning” Lovely Professional University on February 2018."
+                    android:layout_toRightOf="@+id/achievepoint2"
+                    android:layout_below="@id/achievetext2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"
+                    android:id="@+id/achievetext3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:textSize="12sp"
+                    android:layout_below="@+id/achievetext3"
+                    android:textColor="#555555"
+                    android:id="@+id/achievepoint4"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Awarded 1st Prize in the Science Exhibition competition held on December 2013 by St. Francis School."
+                    android:layout_toRightOf="@+id/achievepoint3"
+                    android:layout_below="@id/achievetext3"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:id="@+id/achievetext4"/>
+        </RelativeLayout>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Workshops"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/workpoint0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="“Workshop on Entrepreneurship” organized by Club Mrinda under the aegis of Professional Enhancement III held on August 2018"
+                    android:layout_toRightOf="@+id/workpoint0"
+                    android:id="@+id/worktext0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/workoint1"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/worktext0"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="“Goal Setting” organized by Club Catalyst held under the aegis of Professional Enhancement III held on August 2018."
+                    android:layout_toRightOf="@+id/workpoint0"
+                    android:id="@+id/worktext1"
+                    android:layout_below="@+id/worktext0"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:id="@+id/workpoint2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_below="@id/worktext1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="“Sarfarosh” held on April 2018 organized by Student Organization ‘Pahal..An Initiation’."
+                    android:layout_toRightOf="@+id/workpoint2"
+                    android:id="@+id/worktext2"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_below="@id/worktext1"
+                    android:layout_marginBottom="3dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:textSize="12sp"
+                    android:layout_below="@+id/worktext2"
+                    android:textColor="#555555"
+                    android:id="@+id/workpoint3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attended PTE seminar by Pearson India held on February 2018 at LPU Campus."
+                    android:layout_toRightOf="@+id/workpoint2"
+                    android:layout_below="@id/worktext2"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="#555555"
+                    android:id="@+id/worktext3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚬ "
+                    android:textSize="12sp"
+                    android:layout_below="@+id/worktext3"
+                    android:textColor="#555555"
+                    android:id="@+id/workpoint4"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attended a two day workshop named “National Entrepreneurship Conclave-2017” organized by Rectangle Event Management Services Pvt. Ltd. Co. at LPU held on November 2017."
+                    android:layout_toRightOf="@+id/workpoint3"
+                    android:layout_below="@id/worktext3"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:id="@+id/worktext4"/>
+        </RelativeLayout>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+    </LinearLayout>
+</ScrollView>

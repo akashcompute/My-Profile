@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="17dp"
+        android:orientation="vertical">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚬ "
+                android:id="@+id/point"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/point"
+                android:text="English"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Intermediate level"
+                  android:textSize="12sp"
+                  android:layout_toRightOf="@+id/point"
+                  android:layout_below="@+id/point"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+    <RelativeLayout
+            android:paddingTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚬ "
+                android:id="@+id/point0"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/point0"
+                android:text="Hindi"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Intermediate level"
+                  android:textSize="12sp"
+                  android:layout_toRightOf="@+id/point0"
+                  android:layout_below="@+id/point0"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+</LinearLayout>

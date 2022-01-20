@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="17dp"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Musicfy"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="June 2019 - July 2019"
+                android:textSize="12sp"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                android:textColor="#555555"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textSize="12sp"
+                android:layout_marginBottom="13dp"
+                android:layout_marginRight="7dp"
+                android:textColor="#555555"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Profile"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="June 2019 - July 2019"
+                    android:textSize="12sp"
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:layout_marginBottom="13dp"
+                    android:textColor="#555555"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPA Calculator"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:background="#25202222"
+            android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="June 2018 - Jul 2018"
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:textSize="12sp"
+                    android:textColor="#555555"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This project is based on ten (10) point scale as used by most Colleges of Education. Academic excellence is measured using
+the Grade Point Average (GPA) and Cumulative Grade Point Average (CGPA). So it is important that all students have
+insight on how to calculate their GPA and CGPA so as to be able to evaluate their academic performance from time to time
+and improve themselves by the remarks provided.\n\nProject link- https://tinyurl.com/y7xhebrf"
+                android:textSize="12sp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="13dp"
+                android:textColor="#555555"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fantasy Cricket Game"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="June 2018 - Jul 2018"
+                    android:textSize="12sp"
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In this one can create a virtual team of real cricket players and score points depending on how our chosen players perform in
+real life matches. To win a tournament, we must try and get the max points and the No. 1 rank amongst other participants.\n\nProject link- https://tinyurl.com/y7xa6x6u"
+                    android:textSize="12sp"
+                    android:textColor="#555555"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginBottom="13dp"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mini Dictionary"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:background="#25202222"
+                android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="March 2018 - April 2018"
+                    android:textSize="12sp"
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:layout_height="wrap_content"
+                    android:text="In this user searches a meaning of the word and when the word matches with the data in the file then the meaning of that
+word is retrieved from the file and shown as an output else if not found user can add words and their meanings to the
+dictionary. It can even display all the words present in the dictionary.\n\nProject link- https://tinyurl.com/ydgn992j"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#555555" android:layout_marginBottom="13dp"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LPU Finder ( University finder )"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="March 2018 - April 2018"
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:textSize="12sp"
+                    android:textColor="#555555"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This project can be used to find 1. Section Mentor 2. Section HOD 3. Placement Mentor etc. to help students to know their
+authorities of the University better. Admin can add new authorities details and student details. In case of any mistake admin
+can edit the respective details needed to be changed or else all, using the concepts of file handling.\n\nProject link- https://tinyurl.com/ybn4tmyy"
+                    android:layout_marginRight="7dp"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#555555"
+                    android:layout_marginBottom="13dp"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Income Tax Calculator"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="September 2017 – October 2017"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                android:textSize="12sp"
+                android:textColor="#555555"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In this project all concepts of file handling, stacks, loops, data manipulation etc. have been used. It is all about Calculating
+Income Tax of citizens with respect to their salary, age.\n\nProject link- https://tinyurl.com/ya6stx8a"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#555555"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="13dp"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+    </LinearLayout>
+</ScrollView>

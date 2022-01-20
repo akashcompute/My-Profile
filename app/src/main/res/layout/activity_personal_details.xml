@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="17dp"
+        android:orientation="vertical">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚬ "
+                android:id="@+id/point0"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/point0"
+                android:text="Date of Birth"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="28th March, 1999"
+                  android:textSize="12sp"
+                  android:layout_toRightOf="@+id/point0"
+                  android:layout_below="@+id/point0"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+    <RelativeLayout android:paddingTop="17dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚬ "
+                android:id="@+id/point1"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/point1"
+                android:text="Nationality"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Indian"
+                  android:textSize="12sp"
+                  android:layout_toRightOf="@+id/point1"
+                  android:layout_below="@+id/point1"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+    <RelativeLayout android:paddingTop="17dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚬ "
+                android:id="@+id/point2"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/point2"
+                android:text="Address"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Ranchi, Jharkhand - 834002"
+                  android:textSize="12sp"
+                  android:layout_toRightOf="@+id/point2"
+                  android:layout_below="@+id/point2"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+</LinearLayout>

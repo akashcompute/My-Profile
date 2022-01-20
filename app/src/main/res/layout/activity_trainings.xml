@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="17dp"
+        android:orientation="vertical">
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:background="#25202222"
+                android:id="@+id/point3"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:background="#25202222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/point3"
+                android:text="Android Development"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="June 2019 - July 2019"
+                  android:textSize="12sp"
+                  android:id="@+id/date3"
+                  android:layout_below="@+id/point3"
+                  android:layout_alignParentRight="true"
+                  android:textColor="#555555"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Internshala Training ( Online )\n\nA six weeks online summer training on Android App Development. The training program consisted of Learning to Build User Interfaces, Learning to add Functionalities, Building Echo- Part1 and Building Echo- Part2 modules. As a part of the training I build my own music player app and an android application which shows up my resume."
+                  android:textSize="12sp"
+                  android:layout_below="@+id/date3"
+                  android:layout_toRightOf="@+id/point3"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+    <RelativeLayout
+            android:paddingTop="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:background="#25202222"
+                android:id="@+id/point0"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/point0"
+                android:text="Programming With Python"
+                android:textSize="16sp"
+                android:background="#25202222"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="June 2018 - July 2018"
+                  android:textSize="12sp"
+                  android:id="@+id/date0"
+                  android:layout_below="@+id/point0"
+                  android:layout_alignParentRight="true"
+                  android:textColor="#555555"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Internshala Training ( Online )\n\nIt covered essential concepts on the building blocks of Python, OOP, use of SQLite database and development of GUIs for Python applications. At the end of this training, I build a Fantasy Cricket game that integrates all the concepts learned."
+                  android:textSize="12sp"
+                  android:layout_below="@+id/date0"
+                  android:layout_toRightOf="@+id/point0"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#CCCCCC"/>
+</LinearLayout>

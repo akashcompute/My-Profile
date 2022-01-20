@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="17dp"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programming"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="⚬ C\n⚬ C++\n⚬ Java\n⚬ Python3\n⚬ SQL\n⚬ Kotlin\n⚬ Android Development\n⚬ Database Management"
+                  android:textSize="12sp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:background="#25202222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:text="⚬ Html5\n⚬ CSS\n⚬ JavaScript"
+                  android:textSize="12sp"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tools and Technologies"
+                android:background="#25202222"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:text="⚬ MS Excel\n⚬ MS Word\n⚬ MS Powerpoint"
+                  android:textSize="12sp"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25202222"
+                android:text="Other Skills"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="⚬ Punctual\n⚬ Team Management\n⚬ Time Management"
+                  android:textSize="12sp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginBottom="15dp"
+                  android:textColor="#555555"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#CCCCCC"/>
+    </LinearLayout>
+</ScrollView>

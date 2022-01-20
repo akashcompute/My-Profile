@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+        android:layout_height="match_parent"
+                      android:layout_width="match_parent"
+                      xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <TableRow
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_marginRight="2dp"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Year"
+                    android:textAlignment="center"
+                    android:background="#25202222"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:background="#25202222"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Degree"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:background="#25202222"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:text="Institute"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:background="#25202222"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Percentage"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_marginRight="2dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="2017 - 2021"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech ( Computer Science and Engineering )"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lovely Professional University, Phagwara"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="76.70 %  (till 3rd Semester)"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_marginRight="2dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="2015 - 2017"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="XII ( CBSE )"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Oxford Public School, Ranchi"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="75.00 %"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_marginRight="2dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="2002 - 2015"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="X ( ICSE )"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saint Francis School, Ranchi"
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+            <TextView
+                    android:textAlignment="center"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="78.40 %"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+</HorizontalScrollView>
